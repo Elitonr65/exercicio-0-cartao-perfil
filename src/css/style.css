@@ -1,0 +1,61 @@
+:root{
+    --background-color: hsl(185, 75%, 39%);
+    --text-color: hsl(227, 10%, 46%);
+}
+
+
+
+body{
+    background-color: var(--background-color);
+    font-family: 'Kumbh Sans', sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.cartao-perfil{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 320px;
+    height: 340px;
+    justify-content: space-between;
+    gap: 20px;
+    background-color: #fff;
+    border-radius: 20px;
+}  
+
+.dados-perfil{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    height: 100%;
+    gap: 20px;
+}
+
+.informacoes-perfil{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    text-align: center;
+    width: 100%;
+    padding-bottom: 25px;
+}
+
+.dados-perfil img{
+    border-radius: 50%;
+    margin-top: 25px;
+}
+
+
+.info .slf, .regiao, .idade {
+    color: var(--text-color);
+}
+

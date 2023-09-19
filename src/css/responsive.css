@@ -1,0 +1,9 @@
+@media(max-width:320px){
+    .header{
+        margin: 10px;
+    }
+
+    .slf, .info, .idade, .regiao, .nome{
+        font-size: 18px;
+    }
+}
